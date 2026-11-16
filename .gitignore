@@ -1,0 +1,43 @@
+# Dataset and generated cache (never commit)
+comma_cache/
+cache/
+data/
+Comma2k19/
+Training/
+Validation/
+Testing/
+frames/
+flow*/
+feats*/
+ckpt/
+labels/
+dash_ld*/
+preds/
+
+# Arrays, weights, media
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.mp4
+*.avi
+*.jpg
+*.jpeg
+*.zip
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Secrets
+.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
