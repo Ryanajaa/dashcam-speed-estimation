@@ -119,3 +119,9 @@ dashcam-speed-estimation/
 ## Author
 
 **Jitpanu Arunotai**, Robotics & AI Engineering, King Mongkut's Institute of Technology Ladkrabang (KMITL)
+
+## License
+
+Released under the [MIT License](LICENSE).
+
+Comma2k19 is a separate dataset with its own license and is not included here.
