@@ -1,0 +1,26 @@
+CNN  input: flow stack, gaps 1/2/4/8 x (dx, dy)                    8 x 128 x 384
+CNN  conv1 7x7, stride 2 (8 -> 64 ch)                              64 x 64 x 192
+CNN  BatchNorm                                                     64 x 64 x 192
+CNN  ReLU                                                          64 x 64 x 192
+CNN  maxpool 3x3, stride 2                                         64 x 32 x 96
+CNN  layer1 (2 BasicBlocks)                                        64 x 32 x 96
+CNN  layer2 (2 BasicBlocks, stride 2)                              128 x 16 x 48
+CNN  layer3 (2 BasicBlocks, stride 2)                              256 x 8 x 24
+CNN  layer4 (2 BasicBlocks, stride 2)                              512 x 4 x 12
+CNN  global average pool                                           512 x 1 x 1
+CNN  output: feature per frame (fc removed)                        512
+                                                                   
+TF   input: window of 64 frame features (3.2 s)                    64 x 512
+TF   input projection (Dropout -> Linear 512->256 -> LayerNorm)    64 x 256
+TF   + learned position embedding                                  64 x 256
+TF   encoder layer 1 (4 heads, FF 1024, pre-norm)                  64 x 256
+TF   encoder layer 2 (4 heads, FF 1024, pre-norm)                  64 x 256
+TF   encoder layer 3 (4 heads, FF 1024, pre-norm)                  64 x 256
+TF   encoder layer 4 (4 heads, FF 1024, pre-norm)                  64 x 256
+TF   output head (LayerNorm -> Linear 256->1)                      64 x 1
+TF   output: speed for each of the 64 frames                       64
+
+CNN parameters        : 11.19 M (+513 for the fc head used during CNN training)
+Transformer parameters: 3.31 M
+Ensemble              : 3 CNNs x 5 transformers = 83.2 M parameters
+Post-processing       : mean of 15 -> median filter (15) -> Savitzky-Golay (41, order 2) -> clip at 0

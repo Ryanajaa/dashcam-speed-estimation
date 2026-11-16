@@ -1,0 +1,13 @@
+[mg4_s1] start 2026-10-08 13:09 | 8 epochs | seed 1 | 8 channels
+ep 1/8 loss 0.0774 | val RMSE 7.39 | smoothed 5.30 | 93s
+ep 2/8 loss 0.0283 | val RMSE 7.72 | smoothed 6.43 | 73s
+ep 3/8 loss 0.0200 | val RMSE 5.65 | smoothed 4.10 | 73s
+ep 4/8 loss 0.0157 | val RMSE 5.55 | smoothed 4.12 | 75s
+ep 5/8 loss 0.0123 | val RMSE 5.52 | smoothed 4.10 | 77s
+ep 6/8 loss 0.0093 | val RMSE 5.16 | smoothed 3.83 | 93s
+ep 7/8 loss 0.0078 | val RMSE 4.90 | smoothed 3.45 | 76s
+ep 8/8 loss 0.0067 | val RMSE 5.00 | smoothed 3.49 | 73s
+[mg4_s1] last epoch 5.00 (smoothed 3.49) | best epoch 4.90 at epoch 7
+Stage 6b (8 epochs): last 4.82 (smoothed 3.12) | best 4.77 at epoch 7
+per-subset RMSE: [3.3 6.2 5.4 5.7 6.9 4.7 3.8 2.1]
+per-subset bias: [ 0.7  0.7  1.7 -1.9 -4.6  0.9 -0.2  0.7]

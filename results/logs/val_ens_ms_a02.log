@@ -1,0 +1,18 @@
+[dash_ms_a02] cnn 0 seed 0: 69s | val raw 2.16 post 1.92
+[dash_ms_a02] cnn 0 seed 1: 70s | val raw 2.12 post 1.92
+[dash_ms_a02] cnn 0 seed 2: 66s | val raw 2.06 post 1.84
+[dash_ms_a02] cnn 0 seed 3: 65s | val raw 2.11 post 1.88
+[dash_ms_a02] cnn 0 seed 4: 67s | val raw 2.13 post 1.94
+[dash_ms_a02] cnn 1 seed 0: 66s | val raw 2.33 post 2.08
+[dash_ms_a02] cnn 1 seed 1: 66s | val raw 2.34 post 2.05
+[dash_ms_a02] cnn 1 seed 2: 65s | val raw 2.19 post 2.00
+[dash_ms_a02] cnn 1 seed 3: 65s | val raw 2.23 post 1.97
+[dash_ms_a02] cnn 1 seed 4: 65s | val raw 2.25 post 2.02
+[dash_ms_a02] cnn 2 seed 0: 65s | val raw 2.39 post 2.09
+[dash_ms_a02] cnn 2 seed 1: 65s | val raw 2.41 post 2.04
+[dash_ms_a02] cnn 2 seed 2: 65s | val raw 2.32 post 2.03
+[dash_ms_a02] cnn 2 seed 3: 65s | val raw 2.34 post 2.04
+[dash_ms_a02] cnn 2 seed 4: 65s | val raw 2.34 post 2.06
+[dash_ms_a02] ENSEMBLE (15 models): raw 2.18 | post 1.93
+per clip RMSE: [3.11 1.78 0.92 1.2  1.77 1.1  2.74 1.72]
+per clip bias: [ 0.42 -0.12  0.1  -0.92 -1.03  0.41  1.8  -1.03]

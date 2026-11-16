@@ -1,0 +1,17 @@
+test frames: 9600 | test mean speed 84.5 km/h (validation 76.8)
+SUBMISSION (refit, 3 CNNs x 5 transformers): raw 4.05 | smoothed 4.03 | clip0 3.99
+reference  (Training only, same recipe)    : raw 4.09 | smoothed 4.07 | clip0 4.03
+validation estimate (Stage 10c)            : raw 2.70 | smoothed 2.67 | clip0 2.48
+refit CNNs one at a time (clip0): [4.19 4.08 3.89] -> mean 4.05 ± 0.15
+
+subset    speed   RMSE   bias | ref RMSE ref bias
+398        37.3   2.33   1.55 |     2.91     1.82
+400        89.1   6.23   5.48 |     6.33     5.51
+408       113.3   3.42   2.76 |     3.22     2.44
+409       110.0   2.63   2.02 |     2.89     2.46
+410       104.8   3.70   3.55 |     3.52     3.39
+411       108.7   3.16   2.74 |     3.59     3.32
+413        89.7   5.92   5.56 |     5.56     5.06
+414        23.0   2.44   0.43 |     2.51     0.11
+
+OVERALL TEST RMSE (submission, clip0): 3.99 km/h

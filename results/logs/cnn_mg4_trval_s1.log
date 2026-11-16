@@ -1,0 +1,10 @@
+[mg4_trval_s1] start 2026-10-08 14:33 | 8 epochs | seed 1 | 68 subsets
+ep 1/8 loss 0.0688 | 62s
+ep 2/8 loss 0.0261 | 56s
+ep 3/8 loss 0.0181 | 61s
+ep 4/8 loss 0.0148 | 68s
+ep 5/8 loss 0.0119 | 56s
+ep 6/8 loss 0.0094 | 56s
+ep 7/8 loss 0.0078 | 61s
+ep 8/8 loss 0.0067 | 61s
+[mg4_trval_s1] fit on validation subsets (in-sample, NOT a score): 3.52  | held-out CNN seeds were 4.68 to 5.00

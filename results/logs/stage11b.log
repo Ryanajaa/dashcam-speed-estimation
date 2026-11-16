@@ -1,0 +1,137 @@
+Stage 11b start 2026-10-08 14:54
+  [mg4_trval_s0] extract Training: 10/60
+  [mg4_trval_s0] extract Training: 20/60
+  [mg4_trval_s0] extract Training: 30/60
+  [mg4_trval_s0] extract Training: 40/60
+  [mg4_trval_s0] extract Training: 50/60
+  [mg4_trval_s0] extract Training: 60/60
+  [mg4_trval_s0] extract Validation: 8/8
+  [mg4_trval_s0] extract Testing: 8/8
+[mg4_trval_s0] features done (499s)
+[mg4_trval_s0] train features (68, 1200, 512) | test features (8, 1200, 512)
+  [mg4_trval_s0] seed 0 step 500/3000 train loss 0.0112 | 12s
+  [mg4_trval_s0] seed 0 step 1000/3000 train loss 0.0024 | 24s
+  [mg4_trval_s0] seed 0 step 1500/3000 train loss 0.0018 | 35s
+  [mg4_trval_s0] seed 0 step 2000/3000 train loss 0.0015 | 47s
+  [mg4_trval_s0] seed 0 step 2500/3000 train loss 0.0014 | 60s
+  [mg4_trval_s0] seed 0 step 3000/3000 train loss 0.0013 | 72s
+[mg4_trval_s0] seed 0: fit on validation subsets (in-sample, NOT a score) raw 1.56 | clip0 1.27
+  [mg4_trval_s0] seed 1 step 500/3000 train loss 0.0310 | 12s
+  [mg4_trval_s0] seed 1 step 1000/3000 train loss 0.0021 | 24s
+  [mg4_trval_s0] seed 1 step 1500/3000 train loss 0.0018 | 35s
+  [mg4_trval_s0] seed 1 step 2000/3000 train loss 0.0014 | 47s
+  [mg4_trval_s0] seed 1 step 2500/3000 train loss 0.0013 | 59s
+  [mg4_trval_s0] seed 1 step 3000/3000 train loss 0.0012 | 70s
+[mg4_trval_s0] seed 1: fit on validation subsets (in-sample, NOT a score) raw 1.51 | clip0 1.30
+  [mg4_trval_s0] seed 2 step 500/3000 train loss 0.0103 | 12s
+  [mg4_trval_s0] seed 2 step 1000/3000 train loss 0.0022 | 24s
+  [mg4_trval_s0] seed 2 step 1500/3000 train loss 0.0017 | 36s
+  [mg4_trval_s0] seed 2 step 2000/3000 train loss 0.0015 | 48s
+  [mg4_trval_s0] seed 2 step 2500/3000 train loss 0.0014 | 60s
+  [mg4_trval_s0] seed 2 step 3000/3000 train loss 0.0013 | 72s
+[mg4_trval_s0] seed 2: fit on validation subsets (in-sample, NOT a score) raw 1.71 | clip0 1.42
+  [mg4_trval_s0] seed 3 step 500/3000 train loss 0.0150 | 12s
+  [mg4_trval_s0] seed 3 step 1000/3000 train loss 0.0022 | 24s
+  [mg4_trval_s0] seed 3 step 1500/3000 train loss 0.0018 | 36s
+  [mg4_trval_s0] seed 3 step 2000/3000 train loss 0.0016 | 48s
+  [mg4_trval_s0] seed 3 step 2500/3000 train loss 0.0014 | 59s
+  [mg4_trval_s0] seed 3 step 3000/3000 train loss 0.0013 | 71s
+[mg4_trval_s0] seed 3: fit on validation subsets (in-sample, NOT a score) raw 1.59 | clip0 1.34
+  [mg4_trval_s0] seed 4 step 500/3000 train loss 0.0083 | 12s
+  [mg4_trval_s0] seed 4 step 1000/3000 train loss 0.0023 | 24s
+  [mg4_trval_s0] seed 4 step 1500/3000 train loss 0.0017 | 36s
+  [mg4_trval_s0] seed 4 step 2000/3000 train loss 0.0015 | 48s
+  [mg4_trval_s0] seed 4 step 2500/3000 train loss 0.0014 | 59s
+  [mg4_trval_s0] seed 4 step 3000/3000 train loss 0.0013 | 71s
+[mg4_trval_s0] seed 4: fit on validation subsets (in-sample, NOT a score) raw 1.58 | clip0 1.31
+  [mg4_trval_s1] extract Training: 10/60
+  [mg4_trval_s1] extract Training: 20/60
+  [mg4_trval_s1] extract Training: 30/60
+  [mg4_trval_s1] extract Training: 40/60
+  [mg4_trval_s1] extract Training: 50/60
+  [mg4_trval_s1] extract Training: 60/60
+  [mg4_trval_s1] extract Validation: 8/8
+  [mg4_trval_s1] extract Testing: 8/8
+[mg4_trval_s1] features done (492s)
+[mg4_trval_s1] train features (68, 1200, 512) | test features (8, 1200, 512)
+  [mg4_trval_s1] seed 0 step 500/3000 train loss 0.0086 | 12s
+  [mg4_trval_s1] seed 0 step 1000/3000 train loss 0.0022 | 23s
+  [mg4_trval_s1] seed 0 step 1500/3000 train loss 0.0018 | 35s
+  [mg4_trval_s1] seed 0 step 2000/3000 train loss 0.0016 | 46s
+  [mg4_trval_s1] seed 0 step 2500/3000 train loss 0.0014 | 57s
+  [mg4_trval_s1] seed 0 step 3000/3000 train loss 0.0013 | 69s
+[mg4_trval_s1] seed 0: fit on validation subsets (in-sample, NOT a score) raw 1.51 | clip0 1.17
+  [mg4_trval_s1] seed 1 step 500/3000 train loss 0.0268 | 12s
+  [mg4_trval_s1] seed 1 step 1000/3000 train loss 0.0022 | 24s
+  [mg4_trval_s1] seed 1 step 1500/3000 train loss 0.0018 | 35s
+  [mg4_trval_s1] seed 1 step 2000/3000 train loss 0.0015 | 47s
+  [mg4_trval_s1] seed 1 step 2500/3000 train loss 0.0014 | 59s
+  [mg4_trval_s1] seed 1 step 3000/3000 train loss 0.0013 | 70s
+[mg4_trval_s1] seed 1: fit on validation subsets (in-sample, NOT a score) raw 1.47 | clip0 1.19
+  [mg4_trval_s1] seed 2 step 500/3000 train loss 0.0122 | 12s
+  [mg4_trval_s1] seed 2 step 1000/3000 train loss 0.0022 | 24s
+  [mg4_trval_s1] seed 2 step 1500/3000 train loss 0.0018 | 35s
+  [mg4_trval_s1] seed 2 step 2000/3000 train loss 0.0015 | 47s
+  [mg4_trval_s1] seed 2 step 2500/3000 train loss 0.0014 | 58s
+  [mg4_trval_s1] seed 2 step 3000/3000 train loss 0.0013 | 70s
+[mg4_trval_s1] seed 2: fit on validation subsets (in-sample, NOT a score) raw 1.67 | clip0 1.30
+  [mg4_trval_s1] seed 3 step 500/3000 train loss 0.0145 | 12s
+  [mg4_trval_s1] seed 3 step 1000/3000 train loss 0.0023 | 23s
+  [mg4_trval_s1] seed 3 step 1500/3000 train loss 0.0018 | 36s
+  [mg4_trval_s1] seed 3 step 2000/3000 train loss 0.0016 | 48s
+  [mg4_trval_s1] seed 3 step 2500/3000 train loss 0.0014 | 60s
+  [mg4_trval_s1] seed 3 step 3000/3000 train loss 0.0013 | 72s
+[mg4_trval_s1] seed 3: fit on validation subsets (in-sample, NOT a score) raw 1.59 | clip0 1.29
+  [mg4_trval_s1] seed 4 step 500/3000 train loss 0.0106 | 13s
+  [mg4_trval_s1] seed 4 step 1000/3000 train loss 0.0021 | 27s
+  [mg4_trval_s1] seed 4 step 1500/3000 train loss 0.0017 | 39s
+  [mg4_trval_s1] seed 4 step 2000/3000 train loss 0.0016 | 51s
+  [mg4_trval_s1] seed 4 step 2500/3000 train loss 0.0014 | 62s
+  [mg4_trval_s1] seed 4 step 3000/3000 train loss 0.0013 | 74s
+[mg4_trval_s1] seed 4: fit on validation subsets (in-sample, NOT a score) raw 1.65 | clip0 1.34
+  [mg4_trval_s2] extract Training: 10/60
+  [mg4_trval_s2] extract Training: 20/60
+  [mg4_trval_s2] extract Training: 30/60
+  [mg4_trval_s2] extract Training: 40/60
+  [mg4_trval_s2] extract Training: 50/60
+  [mg4_trval_s2] extract Training: 60/60
+  [mg4_trval_s2] extract Validation: 8/8
+  [mg4_trval_s2] extract Testing: 8/8
+[mg4_trval_s2] features done (487s)
+[mg4_trval_s2] train features (68, 1200, 512) | test features (8, 1200, 512)
+  [mg4_trval_s2] seed 0 step 500/3000 train loss 0.0099 | 12s
+  [mg4_trval_s2] seed 0 step 1000/3000 train loss 0.0026 | 24s
+  [mg4_trval_s2] seed 0 step 1500/3000 train loss 0.0020 | 36s
+  [mg4_trval_s2] seed 0 step 2000/3000 train loss 0.0018 | 47s
+  [mg4_trval_s2] seed 0 step 2500/3000 train loss 0.0016 | 59s
+  [mg4_trval_s2] seed 0 step 3000/3000 train loss 0.0015 | 71s
+[mg4_trval_s2] seed 0: fit on validation subsets (in-sample, NOT a score) raw 1.52 | clip0 1.22
+  [mg4_trval_s2] seed 1 step 500/3000 train loss 0.0194 | 12s
+  [mg4_trval_s2] seed 1 step 1000/3000 train loss 0.0025 | 23s
+  [mg4_trval_s2] seed 1 step 1500/3000 train loss 0.0020 | 35s
+  [mg4_trval_s2] seed 1 step 2000/3000 train loss 0.0017 | 47s
+  [mg4_trval_s2] seed 1 step 2500/3000 train loss 0.0015 | 58s
+  [mg4_trval_s2] seed 1 step 3000/3000 train loss 0.0014 | 70s
+[mg4_trval_s2] seed 1: fit on validation subsets (in-sample, NOT a score) raw 1.57 | clip0 1.25
+  [mg4_trval_s2] seed 2 step 500/3000 train loss 0.0147 | 12s
+  [mg4_trval_s2] seed 2 step 1000/3000 train loss 0.0024 | 23s
+  [mg4_trval_s2] seed 2 step 1500/3000 train loss 0.0020 | 34s
+  [mg4_trval_s2] seed 2 step 2000/3000 train loss 0.0017 | 46s
+  [mg4_trval_s2] seed 2 step 2500/3000 train loss 0.0016 | 57s
+  [mg4_trval_s2] seed 2 step 3000/3000 train loss 0.0015 | 68s
+[mg4_trval_s2] seed 2: fit on validation subsets (in-sample, NOT a score) raw 1.54 | clip0 1.28
+  [mg4_trval_s2] seed 3 step 500/3000 train loss 0.0128 | 12s
+  [mg4_trval_s2] seed 3 step 1000/3000 train loss 0.0025 | 23s
+  [mg4_trval_s2] seed 3 step 1500/3000 train loss 0.0020 | 34s
+  [mg4_trval_s2] seed 3 step 2000/3000 train loss 0.0018 | 45s
+  [mg4_trval_s2] seed 3 step 2500/3000 train loss 0.0016 | 58s
+  [mg4_trval_s2] seed 3 step 3000/3000 train loss 0.0015 | 70s
+[mg4_trval_s2] seed 3: fit on validation subsets (in-sample, NOT a score) raw 1.45 | clip0 1.24
+  [mg4_trval_s2] seed 4 step 500/3000 train loss 0.0086 | 11s
+  [mg4_trval_s2] seed 4 step 1000/3000 train loss 0.0025 | 23s
+  [mg4_trval_s2] seed 4 step 1500/3000 train loss 0.0021 | 35s
+  [mg4_trval_s2] seed 4 step 2000/3000 train loss 0.0018 | 46s
+  [mg4_trval_s2] seed 4 step 2500/3000 train loss 0.0016 | 57s
+  [mg4_trval_s2] seed 4 step 3000/3000 train loss 0.0015 | 69s
+[mg4_trval_s2] seed 4: fit on validation subsets (in-sample, NOT a score) raw 1.59 | clip0 1.31
+done: ['temporal_tf_mg4_trval_s0_s0.pt', 'temporal_tf_mg4_trval_s0_s1.pt', 'temporal_tf_mg4_trval_s0_s2.pt', 'temporal_tf_mg4_trval_s0_s3.pt', 'temporal_tf_mg4_trval_s0_s4.pt', 'temporal_tf_mg4_trval_s1_s0.pt', 'temporal_tf_mg4_trval_s1_s1.pt', 'temporal_tf_mg4_trval_s1_s2.pt', 'temporal_tf_mg4_trval_s1_s3.pt', 'temporal_tf_mg4_trval_s1_s4.pt', 'temporal_tf_mg4_trval_s2_s0.pt', 'temporal_tf_mg4_trval_s2_s1.pt', 'temporal_tf_mg4_trval_s2_s2.pt', 'temporal_tf_mg4_trval_s2_s3.pt', 'temporal_tf_mg4_trval_s2_s4.pt']

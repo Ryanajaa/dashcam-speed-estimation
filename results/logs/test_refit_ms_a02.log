@@ -1,0 +1,16 @@
+[dash_ms_a02] cnn 0 seed 0: 78s
+[dash_ms_a02] cnn 0 seed 1: 164s
+[dash_ms_a02] cnn 0 seed 2: 68s
+[dash_ms_a02] cnn 0 seed 3: 65s
+[dash_ms_a02] cnn 0 seed 4: 66s
+[dash_ms_a02] cnn 1 seed 0: 65s
+[dash_ms_a02] cnn 1 seed 1: 67s
+[dash_ms_a02] cnn 1 seed 2: 66s
+[dash_ms_a02] cnn 1 seed 3: 69s
+[dash_ms_a02] cnn 1 seed 4: 67s
+[dash_ms_a02] cnn 2 seed 0: 66s
+[dash_ms_a02] cnn 2 seed 1: 66s
+[dash_ms_a02] cnn 2 seed 2: 66s
+[dash_ms_a02] cnn 2 seed 3: 66s
+[dash_ms_a02] cnn 2 seed 4: 66s
+[dash_ms_a02] saved test predictions (15 models); test labels not read
